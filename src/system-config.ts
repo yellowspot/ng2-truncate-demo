@@ -7,13 +7,13 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  'ng2-truncate': 'vendor/ng2-truncate/dist/pipes/truncate.js'
+  'ng2-truncate': 'vendor/ng2-truncate/dist'
 };
 
 /** User packages configuration. */
 const packages: any = {
   'ng2-truncate': {
-    format: 'cjs'
+    main: 'index'
   }
 };
 
