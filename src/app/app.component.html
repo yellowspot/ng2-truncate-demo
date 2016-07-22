@@ -1,8 +1,40 @@
-<h1>
-  {{title}}
+<div class="container bs-docs-container">
+  <h1>ng2-truncate demo</h1>
+  <h4><small><a href="https://github.com/yellowspot/ng2-truncate">GitHub Repo</a></small></h4>
 
-  <p>{{ "123456789" | truncate : 5 }}</p>
-  <p>{{ "123456789" | truncate : 3 }}</p>
-  <p>{{ "123456789" | truncate : 20 }}</p>
-  <p>{{ "123456789" | truncate : 5 : 'xxx' }}</p>
-</h1>
+  <div class="col-md-9">
+    <div class="bs-docs-section">
+
+      <div class="bs-example">
+        Truncate to 5 characters
+        <p>
+          <code class="language-html" data-lang="html">&lt;span&gt;{<span>{</span> "123456789" | truncate : 5  <span>}</span>}&lt;/span&gt;</code>
+        </p>
+      </div>
+      <figure class="highlight">
+        <pre><span>{{ "123456789" | truncate : 5 }}</span></pre>
+      </figure>
+
+      <div class="bs-example">
+        Don't truncate when text is short than limit
+        <p>
+          <code class="language-html" data-lang="html">&lt;span&gt;{<span>{</span> "123456789" | truncate : 20  <span>}</span>}&lt;/span&gt;</code>
+        </p>
+      </div>
+      <figure class="highlight">
+        <pre><span>{{ "123456789" | truncate : 20 }}</span></pre>
+      </figure>
+
+      <div class="bs-example">
+        Change ellipsis characters
+        <p>
+          <code class="language-html" data-lang="html">&lt;span&gt;{<span>{</span> "123456789" | truncate : 20 : '.'  <span>}</span>}&lt;/span&gt;</code>
+        </p>
+      </div>
+      <figure class="highlight">
+        <pre><span>{{ "123456789" | truncate : 5 : '.' }}</span></pre>
+      </figure>
+
+    </div>
+  </div>
+</div>
