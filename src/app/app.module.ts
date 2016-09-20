@@ -5,9 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { TRUNCATE_PIPES } from 'ng2-truncate';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TRUNCATE_PIPES
   ],
   imports: [
     BrowserModule,
