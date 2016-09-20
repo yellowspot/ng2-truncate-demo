@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
-import { TRUNCATE_PIPES } from 'ng2-truncate';
 
 @Component({
-  moduleId: module.id,
   selector: 'app-root',
-  templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css'],
-  pipes: [TRUNCATE_PIPES]
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng2-truncate-demo!';
+  title = 'ng2-truncate-demo!!';
 }

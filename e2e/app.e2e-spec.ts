@@ -1,10 +1,10 @@
-import { Ng2TruncateDemoPage } from './app.po';
+import { MigrationProjectPage } from './app.po';
 
-describe('ng2-truncate-demo App', function() {
-  let page: Ng2TruncateDemoPage;
+describe('migration-project App', function() {
+  let page: MigrationProjectPage;
 
   beforeEach(() => {
-    page = new Ng2TruncateDemoPage();
+    page = new MigrationProjectPage();
   });
 
   it('should display message saying app works', () => {
