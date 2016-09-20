@@ -1,6 +1,6 @@
 import { Ng2TruncateDemoPage } from './app.po';
 
-describe('ng2-truncate-demo App', function() {
+describe('migration-project App', function() {
   let page: Ng2TruncateDemoPage;
 
   beforeEach(() => {

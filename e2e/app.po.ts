@@ -1,3 +1,5 @@
+import { browser, element, by } from 'protractor/globals';
+
 export class Ng2TruncateDemoPage {
   navigateTo() {
     return browser.get('/');
