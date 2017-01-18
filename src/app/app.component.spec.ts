@@ -2,16 +2,19 @@
 
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { TRUNCATE_PIPES } from 'ng2-truncate';
+import { TruncateModule } from 'ng2-truncate';
 
-describe('App: MigrationProject', () => {
+describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
+      imports: [
+        TruncateModule
+      ],
       declarations: [
-        AppComponent,
-        TRUNCATE_PIPES
+        AppComponent
       ],
     });
+    TestBed.compileComponents();
   });
 
   it('should create the app', async(() => {
