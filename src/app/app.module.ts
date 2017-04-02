@@ -4,18 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
-import { TRUNCATE_PIPES } from 'ng2-truncate';
+import { TruncateModule } from 'ng2-truncate';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TRUNCATE_PIPES
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    TruncateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
