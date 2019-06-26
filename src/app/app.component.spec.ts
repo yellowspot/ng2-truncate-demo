@@ -2,7 +2,7 @@
 
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { TRUNCATE_PIPES } from 'ng2-truncate';
+import { TRUNCATE_PIPES } from '@yellowspot/ng-truncate';
 
 describe('App: MigrationProject', () => {
   beforeEach(() => {
