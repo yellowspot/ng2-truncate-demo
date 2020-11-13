@@ -33,6 +33,7 @@ MIT
 MIT
 
 @yellowspot/ng-truncate
+MIT
 
 core-js
 MIT
