@@ -18,6 +18,16 @@
       </figure>
 
       <div class="bs-example">
+        Truncate to 5 characters trailing char counts (options as hash)
+        <p>
+          <code class="language-html" data-lang="html">&lt;span&gt;&#123;<span>&#123;</span> "123456789" | truncate : 5: &#123; countTrailing: '…', includeTrailing: true &#125;  <span>&#125;</span>&#125;&lt;/span&gt;</code>
+        </p>
+      </div>
+      <figure class="highlight">
+        <pre><span>{{ "123456789" | truncate : 5 : { trailingString: '…', countTrailing: true }  }}</span></pre>
+      </figure>
+
+      <div class="bs-example">
         Don't truncate when text is short than limit
         <p>
           <code class="language-html" data-lang="html">&lt;span&gt;&#123;<span>&#123;</span> "123456789" | truncate : 20  <span>&#125;</span>&#125;&lt;/span&gt;</code>
