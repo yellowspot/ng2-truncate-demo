@@ -24,7 +24,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Deploying to Github Pages
 
-Run `ng build --prod --output-path docs --base-href ng2-truncate-demo` and push the changes
+Run `npm run ng build -- --prod --output-path docs --base-href ng2-truncate-demo` and push the changes
 
 ## Further help
 
