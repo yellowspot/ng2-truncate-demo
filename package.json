@@ -20,7 +20,7 @@
     "@angular/platform-browser": "~13.2.4",
     "@angular/platform-browser-dynamic": "~13.2.4",
     "@angular/router": "~13.2.4",
-    "@yellowspot/ng-truncate": "^2.0.0",
+    "@yellowspot/ng-truncate": "^2.0.1",
     "rxjs": "~6.6.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
